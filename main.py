@@ -3,7 +3,7 @@ import pandas as pd
 
 
 st.set_page_config(
-	page_title="EquityLens｜股票分析工作台",
+	page_title="PCSchool｜股票分析工作台",
 	page_icon="📈",
 	layout="wide",
 	initial_sidebar_state="expanded",
@@ -36,7 +36,7 @@ st.markdown(
 	[data-testid="stSidebar"] .stRadio label:hover { background: rgba(255,255,255,.08); }
 	[data-testid="stSidebar"] hr { border-color: rgba(255,255,255,.14); }
 	.block-container { max-width: 1440px; padding: 2.5rem 4rem 4rem; }
-	.brand { letter-spacing: .06em; font-size: .32rem; font-weight: 700; color: #7ed7d1; }
+	.brand { letter-spacing: .016em; font-size: .62rem; font-weight: 700; color: #7ed7d1; }
 	.sidebar-note { color: #a9bbc0; font-size: .77rem; line-height: 1.7; }
 	.eyebrow { color: var(--teal); letter-spacing: .12em; font-size: .74rem; font-weight: 700; text-transform: uppercase; }
 	h1 { font-size: clamp(2rem, 3.3vw, 3.25rem) !important; letter-spacing: -.04em; line-height: 1.1 !important; margin: .35rem 0 .75rem !important; }
@@ -69,7 +69,7 @@ st.markdown(
 
 
 with st.sidebar:
-	st.markdown('<div class="brand">EQUITYLENS</div>', unsafe_allow_html=True)
+	st.markdown('<div class="brand">巨匠職訓專班</div>', unsafe_allow_html=True)
 	st.markdown("## 股票分析工作台")
 	st.markdown('<p class="sidebar-note">以數據整理投資決策，快速掌握市場、企業與持股的關鍵脈絡。</p>', unsafe_allow_html=True)
 	st.divider()
