@@ -56,7 +56,7 @@ def format_number(value):
 
 
 with st.sidebar:
-    st.markdown('<div class="brand">EQUITYLENS</div>', unsafe_allow_html=True)
+    st.markdown('<div class="brand">巨匠電腦專題</div>', unsafe_allow_html=True)
     st.markdown("## 股票分析工作台")
     st.markdown('<p class="sidebar-note">拆解法人、基金與內部人動向，理解資金的選擇。</p>', unsafe_allow_html=True)
     st.divider()
