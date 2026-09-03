@@ -3,7 +3,7 @@ import yfinance as yf
 import pandas as pd
 
 
-st.set_page_config(page_title="EquityLens｜持股分析", page_icon="◈", layout="wide")
+st.set_page_config(page_title="PCSchool｜持股分析", page_icon="◈", layout="wide")
 
 st.markdown(
     """

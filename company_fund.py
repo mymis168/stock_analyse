@@ -4,7 +4,7 @@ import pandas as pd
 
 
 st.set_page_config(
-    page_title="EquityLens｜公司基本面",
+    page_title="PCSchool｜公司基本面",
     page_icon="▣",
     layout="wide",
     initial_sidebar_state="expanded",

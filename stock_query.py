@@ -4,7 +4,7 @@ import pandas as pd
 
 
 st.set_page_config(
-    page_title="EquityLens｜股價行情",
+    page_title="PCSchool｜股價行情",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
