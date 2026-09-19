@@ -61,7 +61,7 @@ with st.sidebar:
     st.markdown('<p class="sidebar-note">拆解法人、基金與內部人動向，理解資金的選擇。</p>', unsafe_allow_html=True)
     st.divider()
     st.markdown("**持股分析**")
-    selected_ticker = st.selectbox("選擇股票代號", ["2330.TW", "2317.TW", "2454.TW"], index=None, placeholder="選擇一檔股票")
+    selected_ticker = st.selectbox("選擇股票代號", ["0050.TW","0056.TW","2330.TW", "2317.TW","2345.TW","2059.TW","2382.TW","2454.TW","3008.TW","3017.TW","3711.TW","5274.TWO",], index=None, placeholder="選擇一檔股票")
     st.divider()
     st.caption("資料來源")
     st.markdown("🟢 Yahoo Finance")
