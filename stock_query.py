@@ -69,7 +69,7 @@ with st.sidebar:
     st.markdown("**股價行情**")
     selected_ticker = st.selectbox(
         "選擇股票代號",
-        ["2330.TW", "2317.TW", "2454.TW"],
+        ["0050.TW","2330.TW", "2317.TW","2345.TW", "2454.TW","3008.TW","3017.TW","3711.TW"],
         index=None,
         placeholder="選擇一檔股票",
     )
